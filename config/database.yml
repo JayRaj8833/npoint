@@ -80,4 +80,4 @@ test:
 #
 production:
   <<: *default
-  url: <%= ENV['DATABASE_URL'] %>
+  url: <%= ENV['postgresql://npointio011:7iGcT8r4q6U7k7SRXfsGIfQdxx8PS3st@dpg-cqnnnb5ds78s739e7640-a/npointio011'] %>
